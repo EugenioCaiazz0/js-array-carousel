@@ -4,10 +4,19 @@
     box-sizing: border-box;
 }
 
-#imgWrapper{
+#imgWrapper {
+    height: 100%;
+}
+
+#imgWrapper img { 
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+
+#slider {
+    width: 75%;
+    height: 65%;
 }
 
 .btnArrow{
@@ -33,3 +42,8 @@
 .rightArrow{
     right: 15px;
 }
+  
+.hide{
+    display: none;
+  }
+  
